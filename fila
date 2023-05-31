@@ -1,0 +1,28 @@
+Algoritimo de fila(p)
+
+Declaração:
+	I:int;
+	p:spring;
+	t:int;
+	f[10]:int;
+	
+inicio
+
+para I = 0 de até 10 passo 1 faça
+	f < f +1;
+fim para
+t=1
+enquanto t=1 faça
+para I = 0 de até 10 passo 1 faça
+	f < f +1;
+fim para
+escreva("Prioritario S/N?")
+leia(p)
+se(p= S)então
+	I-f
+	senão
+		I=I
+fim se
+ 
+fim enquanto
+fim
